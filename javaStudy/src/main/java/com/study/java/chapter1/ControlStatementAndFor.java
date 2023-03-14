@@ -93,9 +93,9 @@ public class ControlStatementAndFor {
 		/*
 		 	1) break문 : 반복문 실행 중 반복문을 종료시키는 명령문
 		 	   >> 중첩문인 경우 가장 가까운 반복문을 빠져나간다.
-		 	   >> 반복문에 label을 설정해주고 break label시 해당 for문을 종료시킨다.
+		 	   >> 반복문에 label(관례상 label, 어떤 이름을 지어도 상관 없음)을 설정해주고 break label시 해당 for문을 종료시킨다.
 		 	2) continue문 : 반목문 실행 중 해당 차수를 건너뛰고 다음 반복문을 실행시키는 명령문
-		 * */
+		 *  */
 		
 		minseok : for(int k = 0; k < 5; k++) {
 			System.out.println("k = " + k);
